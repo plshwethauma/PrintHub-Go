@@ -1,0 +1,228 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-lg);
+}
+
+.title {
+    font-family: var(--font-display);
+    font-size: 2rem;
+    color: var(--color-text);
+}
+
+.subtitle {
+    font-family: var(--font-sans);
+    color: var(--color-text-light);
+    margin-top: calc(var(--spacing-xs) * -1);
+}
+
+.uploadZone {
+    position: relative;
+    border: 3px dashed rgba(86, 47, 0, 0.2);
+    border-radius: var(--radius-lg);
+    padding: var(--spacing-xxl);
+    background: rgba(255, 255, 255, 0.5);
+    transition: all 0.3s ease;
+}
+
+.uploadZone:hover {
+    border-color: var(--color-primary);
+    background: rgba(255, 150, 68, 0.05);
+}
+
+.fileInput {
+    display: none;
+}
+
+.uploadLabel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-md);
+    cursor: pointer;
+}
+
+.uploadIcon {
+    color: var(--color-primary);
+    opacity: 0.7;
+}
+
+.uploadText {
+    font-family: var(--font-serif);
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--color-text);
+}
+
+.uploadHint {
+    font-family: var(--font-sans);
+    font-size: 0.875rem;
+    color: var(--color-text-light);
+}
+
+.filePreview {
+    background: white;
+    border-radius: var(--radius-md);
+    padding: var(--spacing-md);
+    box-shadow: var(--shadow-sm);
+}
+
+.fileInfo {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+}
+
+.fileIcon {
+    color: var(--color-primary);
+}
+
+.fileDetails {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.fileName {
+    font-family: var(--font-sans);
+    font-weight: 600;
+    color: var(--color-text);
+}
+
+.fileSize {
+    font-family: var(--font-sans);
+    font-size: 0.875rem;
+    color: var(--color-text-light);
+}
+
+.removeBtn {
+    background: rgba(231, 76, 60, 0.1);
+    border: none;
+    border-radius: var(--radius-full);
+    padding: var(--spacing-xs);
+    color: var(--color-error);
+    display: flex;
+    transition: all 0.2s ease;
+}
+
+.removeBtn:hover {
+    background: var(--color-error);
+    color: white;
+    transform: scale(1.1);
+}
+
+.settingsSection {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-lg);
+}
+
+.sectionTitle {
+    font-family: var(--font-serif);
+    font-size: 1.25rem;
+    color: var(--color-text);
+}
+
+.settingGroup {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-sm);
+}
+
+.settingLabel {
+    font-family: var(--font-sans);
+    font-weight: 600;
+    font-size: 0.875rem;
+    color: var(--color-text);
+}
+
+.radioGroup {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-sm);
+}
+
+.radioOption {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    padding: var(--spacing-md);
+    background: white;
+    border: 2px solid rgba(86, 47, 0, 0.1);
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-family: var(--font-sans);
+}
+
+.radioOption:hover {
+    border-color: var(--color-primary);
+    background: rgba(255, 150, 68, 0.05);
+}
+
+.radioOption input[type="radio"]:checked+span {
+    font-weight: 600;
+    color: var(--color-primary);
+}
+
+.numberInput {
+    padding: var(--spacing-md);
+    border: 2px solid rgba(86, 47, 0, 0.1);
+    border-radius: var(--radius-md);
+    font-family: var(--font-sans);
+    font-size: 1rem;
+    background: white;
+    transition: border-color 0.2s ease;
+}
+
+.numberInput:focus {
+    outline: none;
+    border-color: var(--color-primary);
+}
+
+.priceCard {
+    background: var(--color-surface);
+    padding: var(--spacing-lg);
+    border-radius: var(--radius-md);
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-sm);
+}
+
+.priceRow {
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--font-sans);
+    color: var(--color-text);
+}
+
+.totalRow {
+    padding-top: var(--spacing-sm);
+    border-top: 2px solid rgba(86, 47, 0, 0.1);
+    font-weight: 700;
+    font-size: 1.125rem;
+}
+
+.totalPrice {
+    color: var(--color-primary);
+    font-family: var(--font-serif);
+    font-size: 1.5rem;
+}
+
+.proceedBtn {
+    background: var(--color-primary);
+    color: white;
+    padding: var(--spacing-lg);
+    border: none;
+    border-radius: var(--radius-lg);
+    font-family: var(--font-serif);
+    font-size: 1.125rem;
+    font-weight: 700;
+    box-shadow: var(--shadow-md);
+    transition: all 0.2s ease;
+}
+
+.proceedBtn:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+}

@@ -1,0 +1,55 @@
+.container {
+    min-height: 100vh;
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    padding: var(--spacing-md) var(--spacing-lg);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* Glassmorphism effect */
+    background: rgba(255, 253, 241, 0.8);
+    backdrop-filter: blur(10px);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom: 1px solid rgba(86, 47, 0, 0.05);
+}
+
+.brand {
+    display: flex;
+    align-items: baseline;
+    gap: var(--spacing-xs);
+}
+
+.logo {
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+.edition {
+    font-family: var(--font-sans);
+    font-size: 0.75rem;
+    background: var(--color-text);
+    color: white;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.main {
+    flex: 1;
+    padding: var(--spacing-md);
+    max-width: 480px;
+    /* Mobile-first constraint for MVP demo clarity */
+    margin: 0 auto;
+    width: 100%;
+}

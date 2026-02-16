@@ -1,0 +1,36 @@
+:root {
+  /* Color Palette */
+  --color-bg: #FFFDF1;
+  --color-surface: #FFCE99;
+  --color-primary: #FF9644;
+  --color-text: #562F00;
+  --color-text-light: #8B5E3C;
+  --color-success: #2ecc71;
+  --color-error: #e74c3c;
+  --color-warning: #f1c40f;
+
+  /* Typography */
+  --font-display: 'Yeseva One', serif;
+  --font-serif: 'Source Serif 4', serif;
+  --font-body: 'IBM Plex Serif', serif;
+  --font-sans: 'Alan Sans', sans-serif;
+
+  /* Spacing */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+  --spacing-xxl: 3rem;
+
+  /* Border Radius */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-sm: 0 2px 4px rgba(86, 47, 0, 0.1);
+  --shadow-md: 0 4px 12px rgba(86, 47, 0, 0.15);
+  --shadow-lg: 0 8px 24px rgba(86, 47, 0, 0.2);
+}
