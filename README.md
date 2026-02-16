@@ -73,9 +73,6 @@ Animated visualization of the printing process:
 
 ### Installation
 
-```bash
-# Navigate to project
-cd C:\Users\hp\.gemini\antigravity\scratch\printhub-go
 
 # Install dependencies (if not already done)
 npm install
