@@ -1,4 +1,4 @@
-# 🖨️ PrintHub Go - Smart Printing MVP
+#  PrintHub Go - Smart Printing MVP
 
 > **Print in 30 seconds. No queues. No hassle.**
 
@@ -159,11 +159,11 @@ printhub-go/
 
 ##  Security Features
 
-- ✅ Single-use QR codes
-- ✅ Time-limited OTP
-- ✅ Auto-expiring locker access
-- ✅ Encrypted document handling (conceptual)
-- ✅ No staff access to documents
+-  Single-use QR codes
+-  Time-limited OTP
+-  Auto-expiring locker access
+-  Encrypted document handling (conceptual)
+-  No staff access to documents
 
 ---
 
